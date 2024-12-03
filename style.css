@@ -7,7 +7,9 @@
 img {
   background-size: cover;
   width: 200px;
-  drop-shadow: 2px 2px 3px black;
+}
+a {
+  text-decoration: none;
 }
 
 #projects {
