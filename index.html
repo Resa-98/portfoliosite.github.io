@@ -64,10 +64,10 @@
       <img
         src="img/resah-febriyanto.jpg"
         alt="resahfebriyanto"
-        class="rounded-circle img-thumbnail" data-aos="fade-in"
+        class="rounded-circle img-thumbnail"
       />
       <h1 class="display-4">Resah Febriyanto</h1>
-      <p class="lead">Front-End Web Developer | Software Engineer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -135,7 +135,7 @@
               <div class="card" data-aos="zoom-out" data-aos-duration="1000">
                 <img
                   src="img/dash_board.png"
-                  class="card-img-top img-fluid"
+                  class="card-img-top"
                   alt="dashboard"
                 />
                 <div class="card-body">
@@ -243,6 +243,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script> 
+        gsap.registerPlugin (TextPlugin);
+       
+        gsap.from('.jumbotron img', {duration: 1, rotateY:360, opacity: 0, delay:1});
+        gsap.from('.navbar', {duration: 1.5, y:'-100%', opacity: 0, ease: 'bounce'});
+        gsap.from('.display-4', {duration:1, x: -50, opacity: 0, delay: 0.5, ease:'back' });
+        gsap.to('.lead', {duration: 3, delay: 1.5, text:'Front-End Web Developer | Software Engineer'});
+       
+    </script>
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
