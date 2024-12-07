@@ -3,13 +3,14 @@
   padding-top: 6rem;
   background-color: #f6ebf8bc;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 img {
   background-size: cover;
   width: 200px;
-}
-a {
-  text-decoration: none;
 }
 
 #projects {
@@ -30,4 +31,8 @@ section {
 }
 .card-img-top {
   width: 100%;
+}
+
+* {
+  padding: 0;
 }
