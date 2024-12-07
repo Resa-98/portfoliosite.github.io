@@ -1,12 +1,14 @@
 /* Jumbotron Section */
 .jumbotron {
   padding-top: 6rem;
-  background-color: #f6ebf8bc;
+  background-color: #fffab5;
 }
+html,
 body {
-  margin: 0;
+  max-width: 100%;
   padding: 0;
   overflow-x: hidden;
+  background: linear-gradient(140deg, #fffab5, #c3fa9d, #88f2a3);
 }
 img {
   background-size: cover;
@@ -14,7 +16,7 @@ img {
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: #fffab5;
 }
 section {
   padding-top: 6rem;
