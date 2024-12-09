@@ -1,14 +1,12 @@
 /* Jumbotron Section */
 .jumbotron {
   padding-top: 6rem;
-  background-color: #fffab5;
+  background-color: #d5f1e8;
 }
-html,
+
 body {
-  max-width: 100%;
-  padding: 0;
   overflow-x: hidden;
-  background: linear-gradient(140deg, #fffab5, #c3fa9d, #88f2a3);
+  background-color: #eaeaea;
 }
 img {
   background-size: cover;
@@ -16,7 +14,7 @@ img {
 }
 
 #projects {
-  background-color: #fffab5;
+  background-color: #ffffff;
 }
 section {
   padding-top: 6rem;
@@ -34,6 +32,18 @@ section {
 .card-img-top {
   width: 100%;
 }
-.image {
-  border: 1px solid red !important;
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 0;
+}
+#gallery {
+  margin-top: -220px;
+}
+h2 {
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: white;
 }
